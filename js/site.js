@@ -114,7 +114,7 @@
       'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Influencia que Mueve//ES', 'BEGIN:VEVENT',
       `UID:influencia-que-mueve-2026@summit`, 'DTSTAMP:' + new Date().toISOString().replace(/[-:]|\.\d+/g, ''),
       'DTSTART:20261015T133000Z', 'DTEND:20261015T170000Z',
-      'SUMMARY:Influencia que Mueve · Latam Summit Bogotá', 'LOCATION:Bogotá (sede por confirmar)',
+      'SUMMARY:Influencia que Mueve · Latam Summit Bogotá', 'LOCATION:B.O.G. Hotel\\, Carrera 11 # 86-74\\, Bogotá',
       'DESCRIPTION:1er Summit Regional sobre influencia corporativa. Organiza IDDEA.', 'END:VEVENT', 'END:VCALENDAR',
     ].join('\r\n');
     $('#ics').href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
