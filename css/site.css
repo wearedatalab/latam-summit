@@ -270,3 +270,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 /* Mayúsculas con tildes y Ñ: más aire entre líneas para que no se monten */
 .pillar h3, .timeline h3, .done h3 { line-height: 1.22; }
 .hero__title { line-height: .98; }
+
+/* Ponentes por bloque de agenda */
+.speakers { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px 22px; margin-top: 14px; }
+.speakers li { padding-left: 12px; border-left: 2px solid var(--cyan); }
+.speakers b { display: block; font-weight: 600; font-size: 15px; color: var(--text); }
+.speakers span { display: block; font-size: 13px; line-height: 1.4; color: var(--muted); }
